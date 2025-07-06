@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MUSIC DIARY</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #121212;
+      color: #f5f5f5;
+    }
+
+    .header {
+      background: #1e1e1e;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #f5f5f5;
+      padding: 0 15px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff4081;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.8em;
+      margin-top: 30px;
+      color: #ff4081;
+    }
+
+    h2 {
+      font-size: 2em;
+      color: #ff4081;
+      margin-bottom: 5px;
+    }
+
+    .content {
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    p {
+        max-width: 700px;
+      margin: 10px auto 30px;
+      font-size: 1.1em;
+      color: #ccc;
+    }
+
+    .image-card {
+      display: inline-block;
+      background: #1e1e1e;
+      border-radius: 10px;
+      margin: 15px;
+      padding: 10px;
+      width: 250px;
+
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .image-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 14px rgba(255,64,129,0.5);
+    }
+
+    .music-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .image-card div {
+      margin-top: 8px;
+      font-weight: bold;
+      color: #ff4081;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: #333;
+      margin: 40px 0;
+    }
+
+    .bottom {
+      background: #1e1e1e;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .bottom a {
+      color: #f5f5f5;
+      margin: 0 10px;
+      font-weight: 600;
+    }
+
+    .bottom a:hover {
+      color: #ff4081;
+    }
+
+    li {
+      display: inline;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <nav>
+      <a href="#about">HOME</a>
+      <a href="#content">MUSIC</a>
+      <a target="_blank" href="./login.html">LOGIN</a>
+      <a href="#bottom">CONTACT</a>
+    </nav>
+  </div>
+
+  <h1>Welcome to ZUTSIC!</h1>
+
+  <div id="about" class="content">
+    <p>
+      Where Every Beat Tells a Story!<br>
+      Dive into a world of rhythm, melody, and passion. Whether you're here to
+      discover new sounds, vibe to fresh tracks, or connect with music lovers
+      like you — this is your stage.<br>
+      Hit play and let the journey begin!
+    </p>
+  </div>
+
+  <hr>
+
+  <div id="content" class="content">
+
+    <h2>Party</h2>
+    <p>Turn up the volume — where every track is a ticket to the ultimate party!</p>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/7lJWhVTtuRkisRchiEdYXr?si=4GGFoez0SvKJnAaTB1nYZQ">
+        <img class="music-img" src="https://imgs.search.brave.com/IN5jE_SPBZ_9d54D5waiBsyiv8nZPGKhydRY59d-ZQM/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zaW5n/ZXJzcm9vbS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjUv/MDcvUG9wLU11c2lj/LVNvbmdzLW9mLUFs/bC1UaW1lLmpwZw" alt="Party USA">
+      </a>
+      <div> English</div>
+    </div>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/2QnLDxeZMzIoCno54I9vKj?si=odT4_CjuQga2T6j54pIgkg">
+        <img class="music-img" src="https://imgs.search.brave.com/Rb3SutUbXS_3_zfJlKhYyJpErBVDdE2mEGKmD3PHL-k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mYXN0/bHktczMuYWxsbXVz/aWMuY29tL3JlbGVh/c2UvbXIwMDAwNTI3/ODU5L2Zyb250LzIy/MC80T1FhU0Z3elZh/MExPb3laY29OQ01n/U2lqYVhKbFlucTBT/dDMxcXBBSldvPS5q/cGc" alt="Bollywood">
+      </a>
+      <div>Bollywood</div>
+    </div>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/4bHHblVnhSV9jttdapmeP4?si=6003zv3wQoOE-LUo9ITLrA">
+        <img class="music-img" src="https://imgs.search.brave.com/IT7z2Pyhr9NB8iEEzekScCRqIOnUn_ecDaoGc4zxCB8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/cm9sbGluZ3N0b25l/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNy9zdHJh/eS1raWRzLWdvZHMt/bWVudS5qcGc_dz0z/MDA" alt="Korean">
+      </a>
+      <div>Korean</div>
+    </div>
+  
+    <h2>Vibe</h2>
+    <p>Smooth beats. Chill vibes. The soundtrack to your soul.</p>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/37zb4IDr5sqTcKSMmSt0TW?si=Sfp8cT9vTrSrMq5NpE2Mlw">
+        <img class="music-img" src="https://imgs.search.brave.com/e7QIgNUo7qbFkldQShwua9gaUTANgLxwctWyovHZ1Fg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2F5bWVkaWEt/Y29udGVudC5jb20v/LmltYWdlL2NfbGlt/aXQsY3Nfc3JnYixm/bF9wcm9ncmVzc2l2/ZSxxX2F1dG86ZWNv/LHdfNzAwL01qQTJO/VFE1TkRVek1UVTNO/RFF6TWpjNC9mZWVs/LWdyZWF0LXBsYXls/aXN0LWhhcHB5LXBv/c2l0aXZlLXVwYmVh/dC11cGxpZnRpbmct/c29uZ3MuanBn" alt="Vibe USA">
+      </a>
+      <div>English</div>
+    </div>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/6s7sji7Ia6i4cwqa7p69YS?si=HZg3SpWbRm-yjFzm4XuX8A">
+        <img class="music-img" src="./bollyVibe.png" alt="Vibe Bollywood">
+      </a>
+      <div>Bollywood</div>
+    </div>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/16DhiyZWGtIyxFdy7V6Hv1?si=nn10Cf0CRg2EM2QHgzU7eQ">
+        <img class="music-img" src="https://imgs.search.brave.com/C_WjyHB-rnaXYpLxGQ6VeYQ1tBxr1UB890OGhUHT16Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9wYWtp/c3Rhbmlqb3VybmFs/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wMS9Ub3At/Ny1UcmVuZGluZy1Q/YWtpc3RhbmktU29u/Z3MtaW4tMjAyMy02/OTZ4Mzg3LmpwZw" alt="Vibe Pakistan">
+      </a>
+      <div> Pakistan  Special</div>
+    </div>
+
+    <h2>Lo-Fi</h2>
+    <p>LoFi beats for your mind to breathe and your heart to drift.</p>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/1YTPE2Ek3xVXF0yML8svLA?si=UoY7ska_SBiY2-jUQEzpMA">
+        <img class="music-img" src="https://imgs.search.brave.com/uPBYkn7Mba2DpHBzqNLcZ4nVoyiOVmo8K9pD8Tg-JU0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pMS5z/bmRjZG4uY29tL2Fy/dHdvcmtzLXJwZVJy/eVlhaHIwSFNZZWgt/WkRvWXd3LXQxMDgw/eDEwODAuanBn" alt="Lo-Fi English">
+      </a>
+      <div>English</div>
+    </div>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/5jYQ4O9Ii3tQcSbJMtVrk8?si=L_rCCAuOSpqr9II0Dwfw4g">
+        <img class="music-img" src="https://imgs.search.brave.com/UQsbQrUVyJEGyeSsLBiMpFwmGf8GZNnSoTH2w0Zgx-g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXM1Lmh1bmdhbWEu/Y29tL3RyOm4tYV8x/MV9tL3ZhcmlhbnQv/MTY3OTI1OTkwODAy/MDQxMjAzMS5qcGVn/P3ZlcnNpb249MTNf/MzQ" alt="Lo-Fi Bollywood">
+      </a>
+      <div>Bollywood</div>
+    </div>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/1oBYFYfgpwOQ9DUo4GCFTf?si=H7RLufkmT4ivHRj6huEQxA">
+        <img class="music-img" src="https://imgs.search.brave.com/OZzOGiAK9BANgtSNUW2pZZ8Lw5Hn-Nd27EPAGmQJX4k/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMzMv/NjYyLzA0MC9zbWFs/bC9jYXJ0b29uLWxv/ZmkteW91bmctbWFu/Z2Etc3R5bGUtZ2ly/bC13aGlsZS1saXN0/ZW5pbmctdG8tbXVz/aWMtaW4tdGhlLXJh/aW4tYWktZ2VuZXJh/dGl2ZS1waG90by5q/cGc" alt="Lo-Fi Pakistan">
+      </a>
+      <div>Pakistan Special</div>
+    </div>
+
+    <h2>Long Drive</h2>
+    <p>Your perfect playlist for open roads and endless horizons.</p>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/playlist/7qVAH2dyGjnUDZtFVzTU5y?si=fIQaeY8-Qsi7VMFMFtiOug">
+        <img class="music-img" src="./EnglishLongDrive.png" alt="LongDrive USA">
+      </a>
+      <div>English</div>
+    </div>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/album/1hlbiG3q18W4Jd923StCif?si=hwt2QclAQ1yMZK2u80VdJA">
+        <img class="music-img" src="https://imgs.search.brave.com/a4PUj9Nt46hzHVJABB24r0m_BgtkVsZTjkPyS2NlRtg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9mZWVk/aW5ndHJlbmRzLmNv/bS9fbmV4dC9pbWFn/ZT91cmw9aHR0cHM6/Ly9jZG4uZmVlZGlu/Z3RyZW5kcy5jb20v/Y29udGVudC9pbWFn/ZXMvMTU5Njk3OTE3/OWNvdmVyX2ltZ19l/YTA0ODljYzVkXzQx/NDc1MWI0NjcuanBn/Jnc9MTkyMCZxPTc1" alt="LongDrive Bollywood">
+      </a>
+      <div>Bollywood</div>
+    </div>
+    <div class="image-card">
+      <a target="_blank" href="https://open.spotify.com/album/77jUb66xNLgPrvJN2twwwR?si=kfxx0o1eQ2yws6knGEGOtQ">
+        <img class="music-img" src="./longDrivePak.png" alt="Long Drive Pakistan">
+      </a>
+      <div>Pakistan Special</div>
+    </div>
+
+  </div>
+
+  <hr>
+
+  <div class="bottom" id="bottom">
+    <h2>Contact</h2>
+    <p>Get on board for premium sound quality and seamless music.<br><br><b>Contact us for getting your music on our platform :</b></p>
+    <ul>
+      <a href="mailto:tpandey1_be24@thapar.edu"><li>G Mail</li></a>
+      <a href="tel:+917743080897"><li>Mobile</li></a>
+    </ul>
+    <footer>
+        <small>
+            <p>Copyright© Tejasvi Pandey. All rights reserved</p>
+        </small>
+    </footer>
+  </div>
+
+</body>
+</html>
